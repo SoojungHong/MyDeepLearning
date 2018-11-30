@@ -19,9 +19,8 @@ import random
 #====================
 # data and header
 #====================
-CHICAGO_DATA = 'C:/Users/shong/Documents/data/chicago1year_train_clean_newclients_dedupe_chain_center_click_restaurants_15112018.tsv'
-CHICAGO_HEADER = ['cookie', 'ppid', 'result_provider', 'click_time', 'query_string', 'query_language', 'categories', 'place_name', 'lat', 'lon', 'click_order', 'chain_info', 'unknown_col1', 'unknown_col2']
-
+CHICAGO_DATA = # I removed it intensionally
+CHICAGO_HEADER = # I removed it intensionally
 
 #=============
 # functions 
