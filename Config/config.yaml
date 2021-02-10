@@ -1,0 +1,14 @@
+---
+project: p2g-13
+experiment_desc: &EXPERIMENT_DESC p2g-13_competition_submission
+outfolder: &OUTFOLDER ../output/
+
+
+model:
+  some_param: some_param
+
+
+train:
+  files_a: &FILES_A C:/Users/shong/PycharmProjects/DeblurGANv2/datasets/sj_dataset/GOPRO_Large/train/GOPR0372_07_00/blur/*.png
+  files_b: C:/Users/shong/PycharmProjects/DeblurGANv2/datasets/sj_dataset/GOPRO_Large/train/GOPR0372_07_00/sharp/*.png
+  size: &SIZE 256
