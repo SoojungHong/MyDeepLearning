@@ -1,4 +1,5 @@
 import logging
+from datetime import datetime
 
 # in the beginning of code, put following to use logger 
 logger = logging.getLogger()
@@ -10,6 +11,6 @@ logger.setLevel(logging.INFO)
 logger.removeHandler(sys.stderr) # this remove should be done, otherwise log doesn't appear
 
 # in code, call logging - depends on INFO, DEBUG, etc 
-logging.info("epoch size : "+str(epoch_size)+" "+ str(datetime.now()) ) #SJ_TEST
+logging.info("epoch size : "+str(epoch_size)+" "+ str(datetime.now()) )
         
         
